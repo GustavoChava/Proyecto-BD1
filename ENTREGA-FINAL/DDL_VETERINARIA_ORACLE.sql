@@ -176,7 +176,7 @@ SELECT * FROM Detalle_Transaccion;
 
 CREATE TABLE Cliente_VIP(
 		 DniCliente    NVARCHAR2(15) NOT NULL,
-		 Email         NVARCHAR2(25) UNIQUE,
+		 Email         NVARCHAR2(30) UNIQUE,
 		 Mensualidad   INT NOT NULL,
 		 Fecha_Inscrip DATE NOT NULL,
 		 Direccion     NVARCHAR2(100) NOT NULL,
@@ -245,7 +245,7 @@ CREATE TABLE Consulta(
          CONSTRAINT FK_Consulta2 FOREIGN KEY (IdMascota, DniCliente) REFERENCES Mascota(IdMascota, DniCliente),
          CONSTRAINT CHK_Consulta CHECK (ValorConsulta=150)
 );
-
+--ALTER TABLE Consulta modify Hora NVARCHAR2(10);
 SELECT * FROM Consulta;
 
 ----------------CREACION DE LA TABLA Detalle_Consulta----------------

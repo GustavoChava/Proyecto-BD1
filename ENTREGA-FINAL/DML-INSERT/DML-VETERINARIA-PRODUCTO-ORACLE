@@ -1,0 +1,158 @@
+--INSERTAR DATOS EN LA TABLA PRODUCTO
+--ACCESORIOS
+INSERT ALL INTO Producto VALUES
+  ('Pd252', 'Cama', 'Accesorio', 108, 374, '29/06/2023')
+INTO Producto VALUES
+  ('Pd249', 'Collar identificativo', 'Accesorio', 88.56, 127.05, NULL)
+INTO Producto VALUES
+  ('Pd207', 'correa', 'Accesorio', 159, 178, NULL)
+INTO Producto VALUES
+  ('Pd216', 'Casa para perros', 'Accesorio', 1537, 2030, NULL)
+INTO Producto VALUES
+  ('Pd257', 'Platos de Acero Inoxidable', 'Accesorio', 80.52, 108.04, '07/02/2026')
+INTO Producto VALUES
+  ('Pd226', 'Bebedero automático', 'Accesorio', 208.78, 310.20, NULL)
+INTO Producto VALUES
+  ('Pd236', 'Comedero automático', 'Accesorio', 196, 259, NULL)
+INTO Producto VALUES
+  ('Pd213', 'Tapete para Platos', 'Accesorio', 97, 120.50, NULL)
+INTO Producto VALUES
+  ('Pd281', 'Bolsas biodegradables para recolectar la popó', 'Accesorio', 30, 40.18, '08/12/2024')
+INTO Producto VALUES
+  ('Pd214', 'Shampoo Antigarapatas', 'Accesorio', 100.00, 130.00, '04/10/2023')
+INTO Producto VALUES
+  ('Pd225', 'Corta uñas', 'Accesorio', 70.45, 85.12, NULL)
+INTO Producto VALUES
+  ('Pd204', 'Filtro', 'Accesorio', 158, 198, '26/06/2026')
+INTO Producto VALUES
+  ('Pd277', 'Shampoo Mi buen amigo', 'Accesorio', 82, 106.56, '24/02/2024')
+INTO Producto VALUES
+  ('Pd264', 'Arnés', 'Accesorio', 100, 170, NULL)
+INTO Producto VALUES
+  ('Pd266', 'Corta uñas', 'Accesorio', 89.45, 108.15, NULL)
+INTO Producto VALUES
+  ('Pd282', 'Set de Peines', 'Accesorio', 120, 199.99, NULL)
+INTO Producto VALUES
+  ('Pd211', 'Rascador', 'Accesorio', 200, 233.52, '20/02/2024')
+INTO Producto VALUES
+  ('Pd284', 'Arena', 'Accesorio', 200, 250.09,'29/06/2023')
+INTO Producto VALUES
+  ('Pd215', 'Jaula', 'Accesorio', 545, 659, NULL)
+INTO Producto VALUES
+  ('Pd258', 'Pesera', 'Accesorio', 1271, 1552, NULL)
+SELECT * FROM dual;
+  
+--JUGUETES
+INSERT ALL INTO Producto VALUES
+  ('Pd274', 'DA. Wa', 'Juguete', 72, 80, NULL)
+INTO Producto VALUES
+  ('Pd222', 'Cuerda', 'Juguete', 52, 75.45, NULL)
+INTO Producto VALUES
+  ('Pd253', 'Hueso de juguete interactivo de PetTec', 'Juguete', 41, 50, '31/07/2023')
+INTO Producto VALUES
+  ('Pd230', 'KONG Classic Juguete de resistentencaucho natural', 'Juguete', 60, 79, '20/05/2024')
+INTO Producto VALUES
+  ('Pd298', 'DADYPET Juguetes para Perros-Dispensadora', 'Juguete', 75, 136, NULL)
+INTO Producto VALUES
+  ('Pd273', 'Juguete para Masticar con Forma de Hueso para Perro', 'Juguete', 31.15, 60.15, '06/10/2023')
+INTO Producto VALUES
+  ('Pd234', 'Bola de goma', 'Juguete', 18, 35, '30/11/2023')
+INTO Producto VALUES
+  ('Pd200', 'Catnip', 'Juguete', 32, 51, NULL)
+INTO Producto VALUES
+  ('Pd256', 'Raton de juguete', 'Juguete', 44, 75, NULL)
+INTO Producto VALUES
+  ('Pd283', 'Caña de pescar', 'Juguete', 55, 88.01, NULL)
+INTO Producto VALUES
+  ('Pd288', 'Rueda para hámster', 'Juguete', 99.99, 126.3, NULL)
+INTO Producto VALUES
+  ('Pd202', 'Bola de ejercicio para hámster', 'Juguete', 104,157, NULL)
+INTO Producto VALUES
+  ('Pd241', 'Túneles para hámster', 'Juguete', 184.20, 225, NULL)
+INTO Producto VALUES
+  ('Pd248', 'Plantas ACuáticas Falsas ','Juguete', 55.55, 66.50, '06/03/2023')
+INTO Producto VALUES
+  ('Pd201', 'Rocas Y Piedras', 'Juguete', 40, 55.02, NULL)
+INTO Producto VALUES
+  ('Pd217', 'Barco para acuario grande', 'Juguete', 150, 230.48, NULL)
+INTO Producto VALUES
+  ('Pd261', 'Ropa', 'Juguete', 30, 50.15, NULL)
+SELECT * FROM dual;
+
+--MEDICAMENTO
+INSERT ALL INTO Producto VALUES
+  ('Pd299', 'Traumeel vet tabletas - unidad HEEL', 'Medicamento', 304, 470.70, '11/10/2023')
+INTO Producto VALUES
+  ('Pd294', 'Suplemento veterinario renalof para uso veterinario', 'Medicamento', 754, 1690, '21/12/2024')
+INTO Producto VALUES
+  ('Pd245', 'Hialurina gotero - 10 ml BROUWER', 'Medicamento', 113, 176.1, '30/04/2023')
+INTO Producto VALUES
+  ('Pd212', 'Artrin brouwer - 30 tab BROUWER', 'Medicamento', 171, 241, '11/07/2025')
+INTO Producto VALUES
+  ('Pd271', 'Bravecto (verde) - 10 -20 kg BRAVECTO', 'Medicamento', 155, 261, '30/06/2026')
+INTO Producto VALUES
+  ('Pd250', 'Zeel vet comp. n tabletas - 100 ml HEEL', 'Medicamento', 115, 192.02, '06/12/2023')
+INTO Producto VALUES
+  ('Pd218', 'Desparasitante novacan t - VICAR', 'Medicamento', 100.15, 132.30, '23/03/2022')
+INTO Producto VALUES
+  ('Pd297', 'Suplemento artri balance - 60 tabletas PET PRIME', 'Medicamento', 898, 1791, '07/10/2023')
+INTO Producto VALUES
+  ('Pd292', 'Ocuflox gotero - 5 ml BROUWER', 'Medicamento', 185, 277, '21/08/2024')
+INTO Producto VALUES
+  ('Pd228', 'Mamitolina - CONAVET', 'Medicamento', 117, 185.7, '09/02/2023')
+INTO Producto VALUES
+  ('Pd221', 'suplemento nutricional ocoxin oral x 150 ml VECOL', 'Medicamento', 1209, 1451, '06/04/2025')
+INTO Producto VALUES
+  ('Pd220', 'Ofta - zoo gotas - 10 ml ZOO', 'Medicamento', 120,151.2, '11/11/2025')
+INTO Producto VALUES
+  ('Pd242', 'Crema dermatologica zoodermin - 30 gr ZOO', 'Medicamento', 213, 340, '12/11/2024')
+INTO Producto VALUES
+  ('Pd203', 'Zoo dermin shampoo - 30 ml ZOO', 'Medicamento', 109, 248, '10/10/2023')
+INTO Producto VALUES
+  ('Pd269', 'Attack gatos - unidad ATTACK', 'Medicamento', 108.0, 189.56, '10/09/2024')
+INTO Producto VALUES
+  ('Pd259', 'Mirrapel gatos - 120 ml MIRRAPEL', 'Medicamento', 199.1, 220.6, '20/08/2023')
+INTO Producto VALUES
+  ('Pd206', 'Advantage gatos - 0-4 kg ADVANTAGE', 'Medicamento', 154.5, 168.8, '07/05/2023')
+INTO Producto VALUES
+  ('Pd254', 'Cutamycon crema - 35 ml CHALVER', 'Medicamento', 115.5, 123.0, '07/04/2023')
+INTO Producto VALUES
+  ('Pd290', 'Advantage gatos - 4-8 kg ADVANTAGE', 'Medicamento', 151, 203, '20/11/2021')
+SELECT * FROM dual;
+
+--ALIEMENTO--no ejecutado
+INSERT ALL INTO Producto VALUES
+  ('Pd276', 'Bizcocho aves x 50 gr - VITAGRANO', 'Alimento', 182.2, 271.8, '12/06/2025')
+INTO Producto VALUES
+  ('Pd287', 'Mijo blanco / rojo x 300 gr - VITAGRANO', 'Alimento', 53.6, 91.27, '06/09/2023')
+INTO Producto VALUES
+  ('Pd286', 'Vitacanario x 300 gr - VITAGRANO', 'Alimento', 79.4, 120.00, '12/10/2025')
+INTO Producto VALUES
+  ('Pd251', 'Vitaperico x 300 gr - VITAGRANO', 'Alimento', 52.1, 80.50, '16/04/2023')
+INTO Producto VALUES
+  ('Pd223', 'Girasol bolsa x 200 gr - VITAGRANO', 'Alimento', 83, 100.2, '06/06/2024')
+INTO Producto VALUES
+  ('Pd235', 'Nutra nuggets maintenance - NUTRA NUGGETS', 'Alimento', 152.8, 179.25, '02/10/2023')
+INTO Producto VALUES
+  ('Pd247', 'Diamond adult dog lamb y rice - 6 lb DIAMOND NATURALS', 'Alimento', 167.8, 171.1, '27/02/2024')
+INTO Producto VALUES
+  ('Pd238', 'Monello adulto tradicional - 1 kg MONELLO', 'Alimento', 1090, 1124, '23/08/2026')
+INTO Producto VALUES
+  ('Pd244', 'Ringo premium - RINGO', 'Alimento', 169.1, 262.5, '31/05/2023')
+INTO Producto VALUES
+  ('Pd262', 'Max mature frango y arroz - 2 kg TOTAL MAX', 'Alimento', 1040, 1368, '01/11/2024')
+INTO Producto VALUES
+  ('Pd275', 'Felix sensaciones lata sabores surtidos - paquete FELIX', 'Alimento', 180.3, 1879, '18/07/2023')
+INTO Producto VALUES
+  ('Pd255', 'Hills feline i/d lata - lata HILLS', 'Alimento', 104.9, 207, '26/05/2023')
+INTO Producto VALUES
+  ('Pd280', 'Monello cat castrados - 1 kg MONELLO', 'Alimento', 55.5, 115.3, '25/08/2024')
+INTO Producto VALUES
+  ('Pd296', 'Monello cat adulto - MONELLO', 'Alimento', 51.1, 112.9, '12/03/2025')
+INTO Producto VALUES
+  ('Pd260', 'Omega one goldfish small pellets x 119 gr - OMEGA ONE','Alimento', 297.9, 347.0,'28/03/2026')
+INTO Producto VALUES
+  ('Pd243', 'Omega one veggie rounds x 56 gr - OMEGA ONE', 'Alimento', 172.5, 251.0, '23/09/2024')
+INTO Producto VALUES
+  ('Pd285', 'Hamster y conejillos de indias x 300 gr - VITAGRANO', 'Alimento', 116.8, 140.8, '25/04/2022')
+SELECT * FROM dual;

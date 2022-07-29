@@ -1,0 +1,78 @@
+--INSERT DATOS EN TABLA EMPLEADO--
+
+INSERT INTO Empleado VALUES
+  ('0801-1991-00412', 'Clinton', 'Gutierrez', 9788.00, 'Col. Carrizal, Tegucigalpa', 'c_gutierrez2895@hotmail.org', '30/10/1991',  '(757) 684-4493', 'Veterinario');
+INSERT INTO Empleado VALUES
+  ('0801-1991-00012', 'Hilary', 'Fuentes', 9927.00, 'Re. Trapiche, Tegucigalpa', 'f.hilary@hotmail.com', '17/07/1991', '(877) 573-8788', 'Veterinario');
+INSERT INTO Empleado VALUES
+  ('0801-1999-00487', 'Bernard', 'Ignacio', 8272.00, 'Co. Las Mercedes, Tegucigalpa', 'ibernard3172@hotmail.org', '03/01/1999', '(833) 805-1488', 'Veterinario');
+INSERT INTO Empleado VALUES
+  ('0801-1998-00176', 'Jamal', 'Tapia', 9144.00, 'Hato, Tegucigalpa', 'j.tapia1297@gmail.org', '10/10/1998', '(283) 585-2002', 'Veterinario');
+INSERT INTO Empleado VALUES
+  ('0801-1991-00194', 'Bryar', 'Bravo', 9224.00, 'La Paz, La Paz', 'b.bravo7173@yahoo.net', '06/04/1991', '(613) 976-3558', 'Veterinario');
+INSERT INTO Empleado VALUES
+    ('0801-1996-00128', 'Alika', 'Sebastian', 10289.00, 'Bou. Fuerzas Armadas, Tegucigalpa', 's-alika@gmail.couk', '17/12/1996', '(746) 465-3985', 'Veterinario');
+INSERT INTO Empleado VALUES
+    ('0801-1993-00122', 'Connor', 'Garcia', 9487.00, 'Flores, Comayagua', 'garcia.connor@hotmail.net', '03/08/1993', '(646) 820-9518', 'Veterinario');
+INSERT INTO Empleado VALUES
+  ('0801-1992-00155', 'Azalia', 'Cortes', 9258, 'El Carrizal, Tegucigalpa', 'a-cortes@google.com', '26/12/1992', '(676) 378-4613', 'Veterinario');
+INSERT INTO Empleado VALUES
+  ('0801-1991-00114', 'Joan', 'Gomez', 8191, 'Comayagua' , 'gomez_joan@hotmail.org', '07/10/1991', '(690) 777-8938', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-2001-00126', 'Tashya', 'Soto', 8550, 'El Carrizal, Tegucigalpa', 'tashya_soto@hotmail.org', '18/02/2001', '(686) 584-0102', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-1996-00125', 'Dante', 'Bentlee', 6333, 'Hato, Tegucigalpa', 'dante_bentlee@google.couk', '26/10/1996', '(670) 804-8711', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-1997-00101', 'Wayne', 'Maria', 5706, 'Boul. Juan Puablo, Tegucigalpa', 'w.maria7437@hotmail.org', '02/10/1997', '(858) 598-3362', 'Gerente');
+INSERT INTO Empleado VALUES
+  ('0801-1992-00133', 'Edan', 'Daniel', 5967, 'El Carrizal, Tegucigalpa', 'e_daniel@outlook.com', '27/07/1992', '(722) 282-6429', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-1991-00147', 'Beck', 'Luis', 9034, 'Hato, Tegucigalpa', 'b-luis@outlook.com', '09/12/1991', '(272) 247-1847', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-1992-00117', 'Keely',' Rocio', 11859, 'El Carrizal, Tegucigalpa', 'rociokeely9752@hotmail.org', '17/10/1992', '(211) 115-6692', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-2000-00167', 'Chloe', 'Vasquez', 5156, 'Col. Suyapa, Tegucigalpa', 'chloe.vasquez3@hotmail.es', '11/01/2000', '(686) 728-3715', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-1997-00185', 'Odalis', 'Fernanda', 11917, 'El Carrizal, Tegucigalpa','fernandaodysseus@gmail.net', '10/10/1997', '(574) 613-7161', 'Vendedor');
+INSERT INTO Empleado VALUES
+  ('0801-2001-00149', 'Regan', 'Matias', 7396, 'Boul. Juan Puablo, Tegucigalpa', 'rmatias6867@yahoo.com', '28/03/2001', '(954) 252-0604', 'Peluquero');
+INSERT INTO Empleado VALUES
+  ('0801-1998-00120', 'Lila', 'Cristobal', 5748, 'Co. Las Mercedes, Tegucigalpa', 'lilacristobal@gmail.es', '04/04/1998', '(622) 804-8575', 'Peluquero');
+INSERT INTO Empleado VALUES
+  ('0801-1999-00148', 'Selma', 'Chichi', 8212, 'El Carrizal, Tegucigalpa', 'c-selma@outlook.com', '28/11/1999', '(917) 583-8788', 'Peluquero');
+INSERT INTO Empleado VALUES
+  ('0801-1995-00113', 'Imelda', 'Javier', 5320, 'Co. Las Mercedes, Tegucigalpa', 'i-javier@gmail.org', '04/11/1995', '(714) 587-2131', 'Peluquero');
+INSERT INTO Empleado VALUES
+  ('0801-2000-00124', 'Ruby', 'Sebastian', 7124, 'El Carrizal, Tegucigalpa', 'sebastian.ruby9566@google.couk', '11/05/2000', '(425) 234-3766', 'Gerente');
+INSERT INTO Empleado VALUES
+  ('0801-1996-00104', 'Jenna', 'Testudines', 11588, 'El Carrizal, Tegucigalpa', 'jenna_testudines@yahoo.couk', '06/12/1996', '(754) 726-4274', 'Contador');
+INSERT INTO Empleado VALUES
+  ('0801-1994-00121', 'Dustin', 'Herrera', 5571, 'Co. Las Mercedes, Tegucigalpa', 'd.herrera@gmail.com', '01/01/1994', '(365) 513-3198', 'Publicista');
+INSERT INTO Empleado VALUES
+  ('0801-2000-00129', 'Kristen', 'Bravo', 5352, 'El Carrizal, Tegucigalpa', 'k-bravo@hotmail.es', '22/11/2000', '(370) 832-1416', 'Gerente');
+
+--INSERT DATOS EN TABLA VETERINARIO--
+
+INSERT INTO Veterinario VALUES
+ ('0801-1991-00412', 'Ecografía y Ecocardiografia de Alta Definición');
+ 
+INSERT INTO Veterinario VALUES
+ ('0801-1991-00012', 'Especializado en Traumatología y Ortopedia');
+
+INSERT INTO Veterinario VALUES
+ ('0801-1999-00487', 'Especialistas en medicina interna');
+ 
+INSERT INTO Veterinario VALUES
+ ('0801-1998-00176', 'Especialistas en medicina interna');
+ 
+INSERT INTO Veterinario VALUES
+ ('0801-1991-00194', 'Neurología y Neurocirugía');
+ 
+INSERT INTO Veterinario VALUES
+ ('0801-1996-00128', 'Oftalmología y cirugía oftálmica');
+ 
+INSERT INTO Veterinario VALUES
+ ('0801-1993-00122', 'Fisioterapia y rehabilitación');
+ 
+INSERT INTO Veterinario VALUES
+ ('0801-1992-00155', 'Especialistas en medicina interna');

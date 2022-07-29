@@ -1,0 +1,21 @@
+------------------------LLENADO DE LA TABLA CLIENTE VIP---------------------------
+INSERT INTO Cliente_VIP VALUES ('0801-1998-00301','hernandezjose10@gmail.com',100,'15-01-2018','Colonia Las Flores');
+INSERT INTO Cliente_VIP VALUES ('0801-1989-00119','lopezlrosa11@hotmail.com',50,'10-02-2018','Colonia Nueva Suyapa');
+INSERT INTO Cliente_VIP VALUES ('0801-1993-00160','garciacarlos12@gmail.com',150,'11-05-2019','Colonia La Sosa');
+INSERT INTO Cliente_VIP VALUES ('0803-1997-00059','floresfrancisco13@hotmail.com',150,'06-06-2019','Colonia El Sitio');
+INSERT INTO Cliente_VIP VALUES ('0501-1989-0063','rodriguezreina14@gmail.com',100,'23-09-2020','Colonia Izaguirre');
+INSERT INTO Cliente_VIP VALUES ('0801-1998-00113','lopezhector15@hotmail.com',200,'21-10-2020','Residencial La trinidad ');
+INSERT INTO Cliente_VIP VALUES ('0801-1995-00810','castillooscar16@gmail.com',50,'10-01-2021','Residencial Honduras');
+INSERT INTO Cliente_VIP VALUES ('0801-1996-00140','martinezluis17@hotmail.com',50,'15-02-2021','Residencial Nueva Vida');
+INSERT INTO Cliente_VIP VALUES ('0801-1997-00153','gomezastrid18@gmail.com',100,'12-07-2022','Residencial Los Pinos');
+INSERT INTO Cliente_VIP VALUES ('1201-1998-00039','valenzuelafer@hotmail.com',50,'21-01-2022','Residencial Nueva Esperanza');
+INSERT INTO Cliente_VIP VALUES ('0901-1995-00071','aguilarmanuel20@gmail.com',100,'12-03-2018','Colonia Miraflores');
+INSERT INTO Cliente_VIP VALUES ('0801-1999-00110','ortesnelson21@hotmail.com',200,'11-04-2018','Colonia Santa LucÃ­a');
+INSERT INTO Cliente_VIP VALUES ('0801-2000-00180','castrotania22@gmail.com',100,'09-08-2019','Colonia Dionisio de Herrera');
+INSERT INTO Cliente_VIP VALUES ('0801-1988-00078','murilomarvin23@hotmail.com',50,'09-07-2019','Colonia San Antonio');
+INSERT INTO Cliente_VIP VALUES ('0811-1990-00110','gonzalesjackline24@gmail.com',50,'23-11-2020','Colonia La Esperanza');
+INSERT INTO Cliente_VIP VALUES ('0801-1994-00340','zelayamartha25@hotmail.com',150,'19-12-2020','Barrio Las Lomas');
+INSERT INTO Cliente_VIP VALUES ('0201-1990-00180','mejiaolga26@gmail.com',100,'18-04-2021','Barrio José Trinidad Cabañas');
+INSERT INTO Cliente_VIP VALUES ('0202-1997-00088','bonillaedwin27@hotmail.com',200,'16-03-2021','Barrio 21 de octubre');
+INSERT INTO Cliente_VIP VALUES ('1214-1990-00100','palmavilma28@gmail.com',200,'14-06-2022','Barrio 5 de Mayo');
+INSERT INTO Cliente_VIP VALUES ('1201-1995-00160','lizardomilagro29@hotmail.com',150,'03-05-2022','Barrio Las Cascadas');
