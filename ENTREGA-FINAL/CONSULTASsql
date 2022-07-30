@@ -1,0 +1,60 @@
+--LIKE: Nombre y Apellido de empleados con direccion en Tegucigalpa
+SELECT PrimerNombre, PrimerApellido, Direccion FROM Empleado WHERE Direccion LIKE '%Tegucigalpa'
+ORDER BY PrimerNombre ASC;
+
+--SUBCONSULTA: HISTORIAL MEDICO DE LA MASCOTA Lois
+WITH 
+CLIENTES AS (
+    SELECT PrimerNombre, NombreMascota, TipoMascota, IdMascota FROM Cliente 
+    INNER JOIN Mascota  ON Cliente.DniCliente = Mascota.dnicliente
+)
+
+SELECT PrimerNombre, NombreMascota, Sintoma, Diagnostico, Fecha, Hora FROM CLIENTES CLI
+INNER JOIN Consulta C ON CLI.IdMascota = C.IdMascota
+WHERE CLI.IdMascota = 'MT42588';
+
+--INNER JOIN: Nombre y apellido del cliente, nombre de la mascota y raza del tipo Mascota Canino
+SELECT PrimerNombre, Apellido, NombreMascota, Raza FROM Cliente 
+INNER JOIN Mascota ON Cliente.DniCliente = Mascota.DniCliente
+WHERE TipoMascota = 'Canino' ORDER BY Raza ASC;
+
+--BETWEEN: Compras entre el 04-Mayo-2022 hasta el 02-Agosto-2022
+SELECT * FROM Compra
+WHERE FechaCompra BETWEEN '04/05/22' AND '02/08/22';
+
+--IN: Empleados de tipo gerente y vendedor
+SELECT * FROM Empleado
+WHERE TipoEmpleado IN ('Gerente', 'Vendedor')
+ORDER BY TipoEmpleado ASC;
+
+--GROUP BY & HAVING: Agrupar empleados segun el tipo y mostrar los tipos de empleados que tienen mas de 5 personas
+SELECT COUNT(TipoEmpleado) N_Empleados, TipoEmpleado FROM Empleado
+GROUP BY TipoEmpleado
+HAVING COUNT(TipoEmpleado) > 5;
+
+--SUM Y GROUP BY: Ventas totales realizadas por cada Empleado
+SELECT DniEmpleado, SUM(Total) Total_Ventas FROM Transaccion
+GROUP BY DniEmpleado;
+
+--CASE: TIPOS DE MENBRESIA DE LOS CLIENTES VIP
+SELECT DniCliente, Mensualidad,
+        CASE Mensualidad
+            WHEN 50
+            THEN 'Basico'
+            WHEN 100
+            THEN 'Normal'
+            WHEN 150
+            THEN 'Intermedio'
+            WHEN 200
+            THEN 'Premiun'
+        END AS Tipo_Membresia
+        FROM Cliente_VIP
+ORDER BY Mensualidad ASC;
+
+--LEFT JOIN: Muestra clientes casual y Vip
+SELECT PrimerNombre, Apellido, TipoCliente FROM Cliente
+LEFT JOIN Cliente_VIP ON Cliente.DniCliente = Cliente_VIP.DniCliente;
+
+--RIGHT JOIN: Muestra los clientes Vip
+SELECT PrimerNombre, Apellido, TipoCliente FROM Cliente
+RIGHT JOIN Cliente_VIP ON Cliente.DniCliente = Cliente_VIP.DniCliente;
