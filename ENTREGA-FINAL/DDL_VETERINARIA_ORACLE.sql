@@ -1,6 +1,6 @@
 ----------------CREACION DE LA TABLA PROVEEDOR----------------
 --Supociciones:
---2-EL GMAIL ES DE TIPO UNIQUE, NO PUEDEN AVER CORREOS REPETIDOS
+--2-EL GMAIL ES DE TIPO UNIQUE, NO PUEDEN HABER CORREOS REPETIDOS
 
 CREATE TABLE Proveedor(
     IdProveedor    NVARCHAR2(10) NOT NULL,
@@ -174,7 +174,7 @@ SELECT * FROM Detalle_Transaccion;
 ----------------CREACION DE LA TABLA Cliente_VIP----------------
 --Supociciones:
 --1-Tiene una relacion con Tabla Cliente
---2-Tiene un atributo UNICO que es el email, es único para cada persona 
+--2-Tiene un atributo UNICO que es el email, es Ãºnico para cada persona 
 --3-El atributo mensualidad:es un valor entero entre los valores de  50, 100,150 y 200 
 
 CREATE TABLE Cliente_VIP(
@@ -229,7 +229,7 @@ SELECT * FROM Color_Mascota;
 ----------------CREACION DE LA TABLA Consulta----------------
 --Supociciones:
 --1-Tiene relacion con las tablas Mascota y Empleado
---2-Tiene una llave foránea que es compuesta
+--2-Tiene una llave forÃ¡nea que es compuesta
 --3-El atributo ValorConsulta es un valor fijo de 150
 
 CREATE TABLE Consulta(
