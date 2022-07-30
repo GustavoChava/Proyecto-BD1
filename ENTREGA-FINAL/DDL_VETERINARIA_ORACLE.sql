@@ -87,6 +87,7 @@ SELECT * FROM Veterinario;
 --Supociciones:
 --1-Tiene una relacion con Tabla Proveedor
 --2-Tiene una relacion con Tabla Empleado
+--3-Las compras solo pueden ser gestionadas por el Gerente
 CREATE TABLE Compra(
     IdCompra    NVARCHAR2(10) NOT NULL,
     IdProveedor NVARCHAR2(10) NOT NULL,
@@ -120,6 +121,8 @@ CREATE TABLE Prod_C(
 SELECT * FROM Prod_C;
 
 ----------------CREACION DE LA TABLA Cliente----------------
+--Suposicion:
+--1-S registra tanto los clientes que comprar productos y los que realizan una consuta
 CREATE TABLE Cliente(
     DniCliente   NVARCHAR2(15) NOT NULL,
     PrimerNombre NVARCHAR2(30) NOT NULL,
