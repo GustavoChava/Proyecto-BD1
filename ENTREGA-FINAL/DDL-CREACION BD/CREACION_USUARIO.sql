@@ -9,3 +9,8 @@ GRANT CREATE SESSION TO c##Veterinaria;
 
 --Concedemos los permisos de crear, editar y elimanr tablas al usuario
 GRANT CREATE ANY TABLE, ALTER ANY TABLE, DROP ANY TABLE TO c##Veterinaria;
+
+--Permitir crear vistas y eliminar
+grant create any view to c##Veterinaria;
+
+grant drop any view to c##Veterinaria;
